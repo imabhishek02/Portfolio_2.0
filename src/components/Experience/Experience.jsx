@@ -11,7 +11,7 @@ const Experience = () => {
         <div className="achievement">
             <div className="circle">500+</div>
             <span>Coding</span>
-            <span>Questions</span>
+            <span>Questions </span>
             <span className='s3'>(Solved)</span>
         </div>
         <div className="achievement">
