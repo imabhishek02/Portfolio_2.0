@@ -6,9 +6,10 @@ import react from "../../img/react.png"
 import cpp from "../../img/cpp.png"
 import mysql from "../../img/mysql.png"
 
+
 const Works = () => {
   return (
-    <div className="works">
+    <div className="works" id='About'>
     <div className="awesome">
 <span> Languages & Skills</span>
 <span> I have Worked on...</span>

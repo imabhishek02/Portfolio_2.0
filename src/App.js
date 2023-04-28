@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar/Navbar";
 import './App.css';
+import React from 'react'
 import Intro from "./components/Intro/Intro";
 import Projects from "./components/Projects/services";
 import Experience from "./components/Experience/Experience";
@@ -17,7 +18,7 @@ function App() {
       <Experience/>
       <Works/>
       <Portfolio/>
-      <Testimonial/>
+      {/* <Testimonial/> */}
       <Contact/>
       <Footer/>
     </div>

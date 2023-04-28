@@ -67,7 +67,7 @@ height: 2rem;
     left: -3rem;
 }
 .i-right>:nth-child(3){
-    transform:scale(1.4) ;
+    transform:scale(1.2) ;
     left: 28%;
 }
 .i-right>:nth-child(4){
@@ -88,4 +88,22 @@ padding: 0;
     left: 56%;
     filter: blur(72px);
 
+}
+@media  screen and (max-width:480px) {
+    .intro{
+        flex-direction: column;
+        height: 64rem;
+        gap: 7rem;
+    }
+    .i-right{
+        transform: scale(0.8);
+        left: -3rem;
+    }
+    .i-right .blur{
+        display: none;
+    }
+    .floating-div:nth-of-type(1){
+        top:-7rem !important
+    }
+    
 }

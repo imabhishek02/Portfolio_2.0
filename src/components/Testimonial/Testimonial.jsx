@@ -1,12 +1,14 @@
-import React from 'react'
-import './Testimonial.css'
-import {Swiper,SwiperSlide} from 'swiper/react'
+import React from 'react';
+import './Testimonial.css';
+import {Swiper,SwiperSlide} from 'swiper/react';
 import videopic from "../../img/video.gif";
 import edit from "../../img/edit.gif";
-import upload from "../../img/upload.gif"
+import upload from "../../img/upload.gif";
 import { Pagination } from 'swiper';
-import 'swiper/css/pagination';
-import 'swiper/css'
+import 'swiper/swiper.min.css';
+// import 'swiper/css';
+
+
 
 const Testimonial = () => {
     const blogs= [
@@ -35,25 +37,23 @@ const Testimonial = () => {
             <div className="blur t-blur2"style={{background:"skyblue"}}></div>
         </div>
            {/*slider */}
-           <Swiper 
+           <Swiper
            modules={[Pagination]}
            slidesPerView={1}
            pagination={{clickable:true}}
+           
            >
-            {blogs.map((blog,index)=>{
-                return(
-                    <SwiperSlide key={index}>
-                        <div className="testimonial">
-                        <img src= {blog.img} alt=""/>
-                        <span>{blog.review}</span>
-                        </div>
-                        
-                    </SwiperSlide>
-                );
-            })}
-
+            
+                {blogs.map((blog,index)=>{
+                    return(
+                        <SwiperSlide key={index}>
+                            <img src={blog.img} alt="" />
+                            <span>{blog.review}</span>
+                            </SwiperSlide>
+                    )
+                })}
+           
            </Swiper>
-
     </div>
   );
 };

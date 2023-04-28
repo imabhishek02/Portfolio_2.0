@@ -7,7 +7,7 @@ import Humble from '../../img/humble.png'
 import resume from './resume.pdf'
 const services = () => {
   return (
-    <div className="services">
+    <div className="services" id='Projects'>
         {/*left side */}
         <div className="awesome">
 <span> My Awesome</span>

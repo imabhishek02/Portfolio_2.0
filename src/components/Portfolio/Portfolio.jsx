@@ -1,13 +1,13 @@
-import React from 'react'
-import './Portfolio.css'
-import {Swiper, SwiperSlide} from 'swiper/react'
-import redstore from '../../img/redstore.png'
-import porto1 from '../../img/porto1.png'
-import port2 from '../../img/port2.png'
-import black from '../../img/black.png'
-import text from '../../img/text.png'
+import React from 'react';
+import './Portfolio.css';
+import {Swiper, SwiperSlide} from 'swiper/react';
+import redstore from '../../img/redstore.png';
+import porto1 from '../../img/porto1.png';
+import port2 from '../../img/port2.png';
+import black from '../../img/black.png';
+import text from '../../img/text.png';
+import 'swiper/swiper.min.css';
 
-import 'swiper/css'
 
 const Portfolio = () => {
   return (
